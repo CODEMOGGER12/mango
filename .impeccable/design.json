@@ -1,0 +1,1080 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T06:10:24+00:00",
+  "title": "Design System: MANGO",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Studio Ink",
+        "canonical": "#1c1613",
+        "tonalRamp": [
+          "#0f0a07",
+          "#29221f",
+          "#453e3b",
+          "#635c58",
+          "#837b77",
+          "#a59c98",
+          "#cbc2be",
+          "#f5ece8"
+        ]
+      },
+      "ink-2": {
+        "role": "primary",
+        "displayName": "Ink Secondary",
+        "canonical": "#4e4540",
+        "tonalRamp": [
+          "#100906",
+          "#2a221e",
+          "#463e39",
+          "#655b56",
+          "#857b75",
+          "#a69c96",
+          "#ccc2bc",
+          "#f7ece6"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Studio Paper",
+        "canonical": "#e4dfd7",
+        "tonalRamp": [
+          "#0e0b06",
+          "#27231e",
+          "#433f39",
+          "#615d56",
+          "#817d75",
+          "#a29e96",
+          "#c8c3bc",
+          "#f3eee6"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Paper Raised",
+        "canonical": "#ece8e1",
+        "tonalRamp": [
+          "#0d0b07",
+          "#27241e",
+          "#423f3a",
+          "#615d57",
+          "#807d76",
+          "#a29e97",
+          "#c7c4bd",
+          "#f2eee7"
+        ]
+      },
+      "paper-3": {
+        "role": "neutral",
+        "displayName": "Paper Pressed",
+        "canonical": "#d8d1c7",
+        "tonalRamp": [
+          "#0f0a05",
+          "#28231c",
+          "#443f37",
+          "#635d54",
+          "#837c73",
+          "#a49d94",
+          "#cac3b9",
+          "#f5ede3"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(28, 22, 19, 0.16)",
+        "tonalRamp": [
+          "#0f0a07",
+          "#29221f",
+          "#453e3b",
+          "#635c58",
+          "#837b77",
+          "#a59c98",
+          "#cbc2be",
+          "#f5ece8"
+        ],
+        "note": "Alpha hairline over the ground; ramp derived from its opaque hue."
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(28, 22, 19, 0.38)",
+        "tonalRamp": [
+          "#0f0a07",
+          "#29221f",
+          "#453e3b",
+          "#635c58",
+          "#837b77",
+          "#a59c98",
+          "#cbc2be",
+          "#f5ece8"
+        ],
+        "note": "Alpha hairline over the ground; ramp derived from its opaque hue."
+      },
+      "dark": {
+        "role": "neutral",
+        "displayName": "Kiln Dark",
+        "canonical": "#1b1411",
+        "tonalRamp": [
+          "#100907",
+          "#2a221f",
+          "#463e3a",
+          "#645b58",
+          "#847b77",
+          "#a69c98",
+          "#ccc2bd",
+          "#f7ece7"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On Dark",
+        "canonical": "#ede5da",
+        "tonalRamp": [
+          "#0f0a04",
+          "#29231b",
+          "#453f36",
+          "#635c53",
+          "#837c72",
+          "#a59d93",
+          "#cbc3b8",
+          "#f5ede2"
+        ]
+      },
+      "on-dark-2": {
+        "role": "neutral",
+        "displayName": "On Dark Muted",
+        "canonical": "#b3a89c",
+        "tonalRamp": [
+          "#110903",
+          "#2b2219",
+          "#473e34",
+          "#665c51",
+          "#867b70",
+          "#a79c91",
+          "#cdc2b6",
+          "#f8ece0"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Hairline Dark",
+        "canonical": "rgba(237, 229, 218, 0.18)",
+        "tonalRamp": [
+          "#0f0a04",
+          "#29231b",
+          "#453f36",
+          "#635c53",
+          "#837c72",
+          "#a59d93",
+          "#cbc3b8",
+          "#f5ede2"
+        ],
+        "note": "Alpha hairline over the ground; ramp derived from its opaque hue."
+      },
+      "vanilla-base": {
+        "role": "secondary",
+        "displayName": "Vanilla Base",
+        "canonical": "#383533",
+        "tonalRamp": [
+          "#0d0b09",
+          "#262321",
+          "#423f3d",
+          "#605d5b",
+          "#807c7a",
+          "#a19e9b",
+          "#c7c3c1",
+          "#f1eeeb"
+        ]
+      },
+      "vanilla-top": {
+        "role": "secondary",
+        "displayName": "Vanilla Top",
+        "canonical": "#EFE8DA",
+        "tonalRamp": [
+          "#0f0a03",
+          "#292319",
+          "#453f34",
+          "#635d51",
+          "#837d70",
+          "#a49e91",
+          "#cac3b6",
+          "#f5eee0"
+        ]
+      },
+      "vanilla-field": {
+        "role": "secondary",
+        "displayName": "Vanilla Field",
+        "canonical": "#26231F",
+        "tonalRamp": [
+          "#0d0b07",
+          "#26231f",
+          "#423f3b",
+          "#605d58",
+          "#807d78",
+          "#a29e99",
+          "#c7c3be",
+          "#f2eee8"
+        ]
+      },
+      "vanilla-ink": {
+        "role": "secondary",
+        "displayName": "Vanilla Ink",
+        "canonical": "#EFE8DA",
+        "tonalRamp": [
+          "#0f0a03",
+          "#292319",
+          "#453f34",
+          "#635d51",
+          "#837d70",
+          "#a49e91",
+          "#cac3b6",
+          "#f5eee0"
+        ]
+      },
+      "matcha-base": {
+        "role": "secondary",
+        "displayName": "Matcha Base",
+        "canonical": "#9CAF88",
+        "tonalRamp": [
+          "#040f00",
+          "#1b2907",
+          "#364623",
+          "#536440",
+          "#72845f",
+          "#93a67f",
+          "#b8cca4",
+          "#e2f7cd"
+        ]
+      },
+      "matcha-top": {
+        "role": "secondary",
+        "displayName": "Matcha Top",
+        "canonical": "#EEE6D2",
+        "tonalRamp": [
+          "#100a01",
+          "#292314",
+          "#463f2f",
+          "#645d4c",
+          "#847d6b",
+          "#a59e8b",
+          "#cbc4b0",
+          "#f6eeda"
+        ]
+      },
+      "matcha-field": {
+        "role": "secondary",
+        "displayName": "Matcha Field",
+        "canonical": "#B8C6A6",
+        "tonalRamp": [
+          "#060e00",
+          "#1e280e",
+          "#394429",
+          "#576346",
+          "#768365",
+          "#97a485",
+          "#bccaaa",
+          "#e6f5d4"
+        ]
+      },
+      "matcha-ink": {
+        "role": "secondary",
+        "displayName": "Matcha Ink",
+        "canonical": "#1F2A18",
+        "tonalRamp": [
+          "#050e02",
+          "#1d2816",
+          "#384431",
+          "#56624e",
+          "#75826d",
+          "#96a48d",
+          "#bbcab2",
+          "#e5f4dc"
+        ]
+      },
+      "strawberry-base": {
+        "role": "secondary",
+        "displayName": "Strawberry Base",
+        "canonical": "#F2B6BC",
+        "tonalRamp": [
+          "#210004",
+          "#3f121b",
+          "#5f2f36",
+          "#804d53",
+          "#a26c72",
+          "#c68d93",
+          "#eeb2b8",
+          "#fee8ea"
+        ]
+      },
+      "strawberry-top": {
+        "role": "secondary",
+        "displayName": "Strawberry Top",
+        "canonical": "#D6323B",
+        "tonalRamp": [
+          "#220000",
+          "#4a0209",
+          "#7a0916",
+          "#ad1425",
+          "#db373f",
+          "#fc6665",
+          "#fcaca7",
+          "#ffe8e7"
+        ]
+      },
+      "strawberry-field": {
+        "role": "secondary",
+        "displayName": "Strawberry Field",
+        "canonical": "#F8D0D3",
+        "tonalRamp": [
+          "#1a0306",
+          "#371a1e",
+          "#553639",
+          "#755356",
+          "#967376",
+          "#b99396",
+          "#e0b9bc",
+          "#ffe8ea"
+        ]
+      },
+      "strawberry-ink": {
+        "role": "secondary",
+        "displayName": "Strawberry Ink",
+        "canonical": "#7E151C",
+        "tonalRamp": [
+          "#210000",
+          "#4c0006",
+          "#790e17",
+          "#9d3535",
+          "#c25754",
+          "#e87974",
+          "#feaba5",
+          "#ffe9e7"
+        ]
+      },
+      "ocean-base": {
+        "role": "secondary",
+        "displayName": "Ocean Base",
+        "canonical": "#2E6DB2",
+        "tonalRamp": [
+          "#000a25",
+          "#00244b",
+          "#003f7b",
+          "#1e5fa2",
+          "#4180c6",
+          "#62a2eb",
+          "#9ac8fe",
+          "#e4f0ff"
+        ]
+      },
+      "ocean-top": {
+        "role": "secondary",
+        "displayName": "Ocean Top",
+        "canonical": "#A9DDDA",
+        "tonalRamp": [
+          "#000f0f",
+          "#002b2a",
+          "#154947",
+          "#366765",
+          "#568885",
+          "#77a9a7",
+          "#9cd0cd",
+          "#c6fbf8"
+        ]
+      },
+      "ocean-field": {
+        "role": "secondary",
+        "displayName": "Ocean Field",
+        "canonical": "#235895",
+        "tonalRamp": [
+          "#000927",
+          "#00234d",
+          "#043f7a",
+          "#2a5f9c",
+          "#4a7fc0",
+          "#6ba1e4",
+          "#9cc8fd",
+          "#e4f0fe"
+        ]
+      },
+      "ocean-ink": {
+        "role": "secondary",
+        "displayName": "Ocean Ink",
+        "canonical": "#D5F1EE",
+        "tonalRamp": [
+          "#000f0e",
+          "#112927",
+          "#2d4543",
+          "#4b6361",
+          "#6a8381",
+          "#8aa5a2",
+          "#afcbc8",
+          "#d9f5f2"
+        ]
+      },
+      "lavender-base": {
+        "role": "secondary",
+        "displayName": "Lavender Base",
+        "canonical": "#7A5DA6",
+        "tonalRamp": [
+          "#130029",
+          "#2f0d51",
+          "#4b2d72",
+          "#694c93",
+          "#896cb6",
+          "#aa8dda",
+          "#cfb4fe",
+          "#f1ebff"
+        ]
+      },
+      "lavender-top": {
+        "role": "secondary",
+        "displayName": "Lavender Top",
+        "canonical": "#CFBBE7",
+        "tonalRamp": [
+          "#120220",
+          "#2c1b3c",
+          "#48365b",
+          "#66547b",
+          "#86749c",
+          "#a895bf",
+          "#cebae6",
+          "#f3eafe"
+        ]
+      },
+      "lavender-field": {
+        "role": "secondary",
+        "displayName": "Lavender Field",
+        "canonical": "#9178BA",
+        "tonalRamp": [
+          "#13002b",
+          "#2d124c",
+          "#49306c",
+          "#674f8d",
+          "#876fb0",
+          "#a990d3",
+          "#cfb5fc",
+          "#f1ebfe"
+        ]
+      },
+      "lavender-ink": {
+        "role": "secondary",
+        "displayName": "Lavender Ink",
+        "canonical": "#EFE4FA",
+        "tonalRamp": [
+          "#0f0715",
+          "#282030",
+          "#443b4d",
+          "#63596c",
+          "#82798c",
+          "#a49aae",
+          "#cabfd4",
+          "#f4eafe"
+        ]
+      },
+      "sunset-base": {
+        "role": "secondary",
+        "displayName": "Sunset Base",
+        "canonical": "#EE6E5C",
+        "tonalRamp": [
+          "#210000",
+          "#4b0000",
+          "#7c0400",
+          "#a52a1d",
+          "#cb4f3f",
+          "#f2725f",
+          "#fdac9f",
+          "#fee9e5"
+        ]
+      },
+      "sunset-top": {
+        "role": "secondary",
+        "displayName": "Sunset Top",
+        "canonical": "#F6A13B",
+        "tonalRamp": [
+          "#190600",
+          "#371d00",
+          "#5d3500",
+          "#854f00",
+          "#af6c0d",
+          "#dc8915",
+          "#fcb365",
+          "#ffebd7"
+        ]
+      },
+      "sunset-field": {
+        "role": "secondary",
+        "displayName": "Sunset Field",
+        "canonical": "#F58D70",
+        "tonalRamp": [
+          "#220000",
+          "#470900",
+          "#721e02",
+          "#9a3b20",
+          "#bf5c41",
+          "#e47e61",
+          "#fbae99",
+          "#ffe9e3"
+        ]
+      },
+      "sunset-ink": {
+        "role": "secondary",
+        "displayName": "Sunset Ink",
+        "canonical": "#3B120B",
+        "tonalRamp": [
+          "#200000",
+          "#3e150e",
+          "#5e3129",
+          "#7f4f46",
+          "#a16f64",
+          "#c49085",
+          "#ecb5a9",
+          "#ffe9e4"
+        ]
+      },
+      "peach-base": {
+        "role": "secondary",
+        "displayName": "Peach Base",
+        "canonical": "#F3AC78",
+        "tonalRamp": [
+          "#1b0400",
+          "#3b1a00",
+          "#633000",
+          "#8a4b12",
+          "#ad6b37",
+          "#d18c59",
+          "#fab27e",
+          "#feeadd"
+        ]
+      },
+      "peach-top": {
+        "role": "secondary",
+        "displayName": "Peach Top",
+        "canonical": "#F6D923",
+        "tonalRamp": [
+          "#100b00",
+          "#2b2400",
+          "#4a4000",
+          "#6c5e02",
+          "#8f7e14",
+          "#b49f1e",
+          "#dfc523",
+          "#fff0a2"
+        ]
+      },
+      "peach-field": {
+        "role": "secondary",
+        "displayName": "Peach Field",
+        "canonical": "#F7C69E",
+        "tonalRamp": [
+          "#190500",
+          "#3a1b00",
+          "#5c350d",
+          "#7d532e",
+          "#9f724d",
+          "#c2946d",
+          "#eab991",
+          "#ffeada"
+        ]
+      },
+      "peach-ink": {
+        "role": "secondary",
+        "displayName": "Peach Ink",
+        "canonical": "#4A2A0E",
+        "tonalRamp": [
+          "#1a0400",
+          "#3a1b00",
+          "#58371c",
+          "#785539",
+          "#9a7458",
+          "#bc9578",
+          "#e4bb9d",
+          "#feeadc"
+        ]
+      },
+      "midnight-base": {
+        "role": "secondary",
+        "displayName": "Midnight Base",
+        "canonical": "#1F2A4D",
+        "tonalRamp": [
+          "#030726",
+          "#172143",
+          "#313e63",
+          "#4e5c83",
+          "#6d7ca5",
+          "#8e9dc8",
+          "#b3c3f0",
+          "#e8eefe"
+        ]
+      },
+      "midnight-top": {
+        "role": "secondary",
+        "displayName": "Midnight Top",
+        "canonical": "#F3F2EE",
+        "tonalRamp": [
+          "#0c0b09",
+          "#252421",
+          "#40403d",
+          "#5e5e5a",
+          "#7e7d7a",
+          "#9f9e9b",
+          "#c5c4c0",
+          "#efeeea"
+        ]
+      },
+      "midnight-field": {
+        "role": "secondary",
+        "displayName": "Midnight Field",
+        "canonical": "#151C35",
+        "tonalRamp": [
+          "#050920",
+          "#1b223c",
+          "#363e5a",
+          "#535c7a",
+          "#727c9b",
+          "#929dbe",
+          "#b8c3e5",
+          "#e8eeff"
+        ]
+      },
+      "midnight-ink": {
+        "role": "secondary",
+        "displayName": "Midnight Ink",
+        "canonical": "#F3F2EE",
+        "tonalRamp": [
+          "#0c0b09",
+          "#252421",
+          "#40403d",
+          "#5e5e5a",
+          "#7e7d7a",
+          "#9f9e9b",
+          "#c5c4c0",
+          "#efeeea"
+        ]
+      },
+      "lemon-base": {
+        "role": "secondary",
+        "displayName": "Lemon Base",
+        "canonical": "#F4D23A",
+        "tonalRamp": [
+          "#110a00",
+          "#2c2300",
+          "#4c3f00",
+          "#6f5c00",
+          "#927c11",
+          "#b89d1a",
+          "#e4c21f",
+          "#feefb4"
+        ]
+      },
+      "lemon-top": {
+        "role": "secondary",
+        "displayName": "Lemon Top",
+        "canonical": "#EF8723",
+        "tonalRamp": [
+          "#1b0400",
+          "#3b1a00",
+          "#623100",
+          "#8d4900",
+          "#b8640d",
+          "#e78016",
+          "#fdb176",
+          "#feeadd"
+        ]
+      },
+      "lemon-field": {
+        "role": "secondary",
+        "displayName": "Lemon Field",
+        "canonical": "#F8E074",
+        "tonalRamp": [
+          "#110b00",
+          "#2c2400",
+          "#4b3f05",
+          "#6d5d0d",
+          "#927c05",
+          "#b59e2a",
+          "#dcc457",
+          "#feefac"
+        ]
+      },
+      "lemon-ink": {
+        "role": "secondary",
+        "displayName": "Lemon Ink",
+        "canonical": "#6B2E05",
+        "tonalRamp": [
+          "#1d0200",
+          "#3e1600",
+          "#682b02",
+          "#8a4a27",
+          "#ad6a47",
+          "#d18b67",
+          "#fab18b",
+          "#feeae0"
+        ]
+      },
+      "cocoa-base": {
+        "role": "secondary",
+        "displayName": "Cocoa Base",
+        "canonical": "#6A4431",
+        "tonalRamp": [
+          "#1e0100",
+          "#3b1906",
+          "#5a3523",
+          "#7a5340",
+          "#9c725e",
+          "#bf937e",
+          "#e6b9a3",
+          "#feeae0"
+        ]
+      },
+      "cocoa-top": {
+        "role": "secondary",
+        "displayName": "Cocoa Top",
+        "canonical": "#D9C3A4",
+        "tonalRamp": [
+          "#150800",
+          "#312005",
+          "#4e3c21",
+          "#6d5a3e",
+          "#8e7a5d",
+          "#b09b7d",
+          "#d6c1a2",
+          "#ffebd1"
+        ]
+      },
+      "cocoa-field": {
+        "role": "secondary",
+        "displayName": "Cocoa Field",
+        "canonical": "#523323",
+        "tonalRamp": [
+          "#1b0300",
+          "#381b0c",
+          "#563727",
+          "#765544",
+          "#987462",
+          "#ba9583",
+          "#e1bba7",
+          "#ffeadf"
+        ]
+      },
+      "cocoa-ink": {
+        "role": "secondary",
+        "displayName": "Cocoa Ink",
+        "canonical": "#F0E1CB",
+        "tonalRamp": [
+          "#130900",
+          "#2d2211",
+          "#4a3e2c",
+          "#685c48",
+          "#897b67",
+          "#aa9c88",
+          "#d0c2ac",
+          "#fbecd6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero line and color-run names, uppercase, spanning the gutters; the object may sit in front of it."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Uppercase section titles (details, about); the color-run title runs at clamp(36px, 5.2vw, 88px)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Selected colorway name in the configurator, uppercase."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "MANGO with a clay-pebble O in the live colorway; 24px on mobile, 25.4vw in the footer."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "Serif section intros and soft copy; sentence case, balanced wrap."
+      },
+      "serif-title": {
+        "displayName": "Serif Title",
+        "purpose": "Detail-list headings; FAQ questions use the same voice."
+      },
+      "serif-note": {
+        "displayName": "Serif Note",
+        "purpose": "The one-line colorway note."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; long paragraphs cap at 52 to 60ch."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Hints, counters, cart meta."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase form-field labels only (Color, Quantity)."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hairline-inset",
+        "value": "inset 0 0 0 1px var(--rule)",
+        "purpose": "Edge for tool buttons and the FAQ icon box; a border, not elevation."
+      },
+      {
+        "name": "hairline-inset-strong",
+        "value": "inset 0 0 0 1px var(--rule-strong)",
+        "purpose": "Stepper outline."
+      },
+      {
+        "name": "ghost-outline",
+        "value": "inset 0 0 0 1px currentColor",
+        "purpose": "Ghost button outline."
+      },
+      {
+        "name": "outline-strong",
+        "value": "0 0 0 1px var(--rule-strong)",
+        "purpose": "Buy widget outline."
+      },
+      {
+        "name": "nav-underline",
+        "value": "0 1px 0 var(--rule)",
+        "purpose": "Bottom edge of the solid nav and mobile menu."
+      },
+      {
+        "name": "swatch-ring",
+        "value": "0 0 0 1.5px var(--ink)",
+        "purpose": "Selected swatch ring, 4px outside the swatch."
+      },
+      {
+        "name": "scrim",
+        "value": "rgba(28, 22, 19, 0.38)",
+        "purpose": "Background dim behind the cart drawer."
+      },
+      {
+        "name": "clay-contact",
+        "value": "shadowMaterial opacity 0.22 (0.3 color run, 0.5 dark section) + radial blob 0.32",
+        "purpose": "3D floor shadow under the clay object; the only true shadow in the system."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default curve for reveals, underlines, swatches, drawer and widget."
+      },
+      {
+        "name": "ease-io",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Colorway drench cross-fades."
+      },
+      {
+        "name": "line-reveal",
+        "value": "transform translateY(108%) to 0, 1.15s ease-out, 85ms stagger per line",
+        "purpose": "Headlines rising out of their own masks on scroll-in."
+      },
+      {
+        "name": "fade-rise",
+        "value": "opacity 0 to 1 + 18px rise, 0.9s ease-out, 70ms stagger",
+        "purpose": "Supporting blocks entering view."
+      },
+      {
+        "name": "underline-draw",
+        "value": "scaleX 0 to 1, 0.45s ease-out, origin right to left",
+        "purpose": "Text link hover."
+      },
+      {
+        "name": "arrow-nudge",
+        "value": "translateX(4px), 0.45s ease-out",
+        "purpose": "Button arrow on hover."
+      },
+      {
+        "name": "drench",
+        "value": "background-color and color, 0.8s ease-io",
+        "purpose": "Color run, band and drenched button changing colorway."
+      },
+      {
+        "name": "run-name",
+        "value": "translateY 40% in / -40% out, 0.9s ease-out; opacity 0.6s",
+        "purpose": "Colorway names cycling in the color run."
+      },
+      {
+        "name": "word-ink",
+        "value": "per-word opacity 0.14 to 1, scroll-linked",
+        "purpose": "Manifesto inking in as it crosses the viewport."
+      },
+      {
+        "name": "drawer-slide",
+        "value": "x 100% to 0, 0.65s ease-out; scrim fade 0.4s",
+        "purpose": "Cart drawer."
+      },
+      {
+        "name": "widget-rise",
+        "value": "y 24px to 0 + fade, 0.5s ease-out",
+        "purpose": "Buy widget enter and exit."
+      },
+      {
+        "name": "cart-bump",
+        "value": "5px hop, 0.6s ease-out",
+        "purpose": "Cart count when an item is added."
+      },
+      {
+        "name": "clay-idle",
+        "value": "spin 0.22 rad/s default (x5 on tile hover), float sin(1.1t) * 0.035",
+        "purpose": "The object never sits fully still; colors lerp toward the target colorway."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all transition and animation durations 0.01ms",
+        "purpose": "prefers-reduced-motion: reduce; scroll-linked word and band effects also stop."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "1024px",
+        "note": "max-width; asymmetric 12-column splits collapse to full width, collection shows two tiles."
+      },
+      {
+        "name": "mobile",
+        "value": "720px",
+        "note": "max-width; nav-h 56px, links fold into Menu, buy widget spans the width, collection tiles 78vw."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid ink action with a trailing arrow that slides on hover; the main add-to-cart and explore action.",
+      "html": "<button class=\"ds-btn\">Add to cart · ¥12 <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 56px; padding: 0 20px; background: var(--ink, #1c1613); color: var(--paper, #e4dfd7); font-family: var(--sans, 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif); font-weight: 520; font-size: 16px; border: 0; border-radius: 0; cursor: pointer; transition: background-color 0.3s, color 0.3s; } .ds-btn svg { transition: transform 0.45s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-btn:hover { background: #000; } .ds-btn:hover svg { transform: translateX(4px); } .ds-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; } .ds-btn:disabled { opacity: 0.4; cursor: not-allowed; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Transparent button with a 1px currentColor inset outline that fills with ink on hover.",
+      "html": "<button class=\"ds-btn-ghost\">Continue shopping <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 56px; padding: 0 20px; background: transparent; color: var(--ink, #1c1613); box-shadow: inset 0 0 0 1px currentColor; font-family: var(--sans, 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif); font-weight: 520; font-size: 16px; border: 0; border-radius: 0; cursor: pointer; transition: background-color 0.3s, color 0.3s; } .ds-btn-ghost svg { transition: transform 0.45s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-btn-ghost:hover { background: var(--ink, #1c1613); color: var(--paper, #e4dfd7); } .ds-btn-ghost:hover svg { transform: translateX(4px); } .ds-btn-ghost:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }"
+    },
+    {
+      "name": "Drenched Run Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Color-run variant: the colorway ink becomes the fill and the field becomes the label, shown here in Peach.",
+      "html": "<div class=\"ds-run\"><button class=\"ds-btn-run\">Add Peach · ¥12 <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M12 4v16M4 12h16\"/></svg></button></div>",
+      "css": ".ds-run { background: #F7C69E; padding: 24px; } .ds-btn-run { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-width: 260px; min-height: 56px; padding: 0 20px; background: #4A2A0E; color: #F7C69E; font-family: var(--sans, 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif); font-weight: 520; font-size: 16px; border: 0; border-radius: 0; cursor: pointer; transition: background-color 0.8s var(--ease-io, cubic-bezier(0.65, 0, 0.35, 1)), color 0.8s var(--ease-io, cubic-bezier(0.65, 0, 0.35, 1)); } .ds-btn-run:hover { background: #000; } .ds-btn-run:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "description": "Inherited-color text with a 1px underline drawn from the right and erased to the left; nav, Close, Add to cart, pager.",
+      "html": "<a class=\"ds-link\" href=\"#\">Cart (2)</a>",
+      "css": ".ds-link { position: relative; display: inline-flex; align-items: center; gap: 0.4em; padding: 6px 0; color: var(--ink, #1c1613); text-decoration: none; font-family: var(--sans, 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif); font-size: 15px; } .ds-link::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 3px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform 0.45s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-link:hover::after { transform: scaleX(1); transform-origin: left; } .ds-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }"
+    },
+    {
+      "name": "Quantity Stepper",
+      "kind": "input",
+      "refersTo": "stepper",
+      "description": "Three 44px square cells inside a Hairline Strong inset outline; cells fill Paper Pressed on hover.",
+      "html": "<div class=\"ds-stepper\" role=\"group\" aria-label=\"Quantity\"><button aria-label=\"Decrease quantity\" disabled><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h16\"/></svg></button><output>1</output><button aria-label=\"Increase quantity\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M12 4v16M4 12h16\"/></svg></button></div>",
+      "css": ".ds-stepper { display: inline-grid; grid-template-columns: 44px 44px 44px; align-items: center; height: 44px; box-shadow: inset 0 0 0 1px var(--rule-strong, rgba(28, 22, 19, 0.38)); color: var(--ink, #1c1613); font-family: var(--sans, 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif); } .ds-stepper button { height: 100%; display: grid; place-items: center; background: none; border: 0; color: inherit; cursor: pointer; transition: background-color 0.2s; } .ds-stepper button:hover:not(:disabled) { background: var(--paper-3, #d8d1c7); } .ds-stepper button:disabled { opacity: 0.3; cursor: not-allowed; } .ds-stepper button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; } .ds-stepper output { text-align: center; font-variant-numeric: tabular-nums; font-weight: 520; }"
+    },
+    {
+      "name": "Color Swatches",
+      "kind": "chip",
+      "refersTo": "swatch",
+      "description": "Round clay portraits (base with a rotated half of top); the selected one gets a 1.5px ink ring 4px outside.",
+      "html": "<div class=\"ds-swatches\" role=\"radiogroup\" aria-label=\"Color\"><button class=\"ds-swatch\" role=\"radio\" aria-checked=\"true\" aria-label=\"Vanilla\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"#383533\"/><path d=\"M20 1a19 19 0 0 1 0 38Z\" fill=\"#EFE8DA\" transform=\"rotate(-35 20 20)\"/><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"none\" stroke=\"rgba(28,22,19,.14)\"/></svg></button><button class=\"ds-swatch\" role=\"radio\" aria-checked=\"false\" aria-label=\"Matcha\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"#9CAF88\"/><path d=\"M20 1a19 19 0 0 1 0 38Z\" fill=\"#EEE6D2\" transform=\"rotate(-35 20 20)\"/><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"none\" stroke=\"rgba(28,22,19,.14)\"/></svg></button><button class=\"ds-swatch\" role=\"radio\" aria-checked=\"false\" aria-label=\"Strawberry\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"#F2B6BC\"/><path d=\"M20 1a19 19 0 0 1 0 38Z\" fill=\"#D6323B\" transform=\"rotate(-35 20 20)\"/><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"none\" stroke=\"rgba(28,22,19,.14)\"/></svg></button><button class=\"ds-swatch\" role=\"radio\" aria-checked=\"false\" aria-label=\"Ocean\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"#2E6DB2\"/><path d=\"M20 1a19 19 0 0 1 0 38Z\" fill=\"#A9DDDA\" transform=\"rotate(-35 20 20)\"/><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"none\" stroke=\"rgba(28,22,19,.14)\"/></svg></button><button class=\"ds-swatch\" role=\"radio\" aria-checked=\"false\" aria-label=\"Lavender\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"#7A5DA6\"/><path d=\"M20 1a19 19 0 0 1 0 38Z\" fill=\"#CFBBE7\" transform=\"rotate(-35 20 20)\"/><circle cx=\"20\" cy=\"20\" r=\"19\" fill=\"none\" stroke=\"rgba(28,22,19,.14)\"/></svg></button></div>",
+      "css": ".ds-swatches { display: grid; grid-template-columns: repeat(5, 56px); gap: 8px; } .ds-swatch { position: relative; aspect-ratio: 1; display: grid; place-items: center; padding: 0; background: none; border: 0; cursor: pointer; transition: transform 0.35s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-swatch svg { width: 100%; height: 100%; display: block; } .ds-swatch::after { content: \"\"; position: absolute; inset: -4px; border-radius: 50%; box-shadow: 0 0 0 1.5px var(--ink, #1c1613); opacity: 0; transform: scale(0.92); transition: opacity 0.3s, transform 0.4s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-swatch:hover { transform: scale(1.06); } .ds-swatch[aria-checked=\"true\"]::after { opacity: 1; transform: none; } .ds-swatch:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav-solid",
+      "description": "Fixed 60px three-column bar: links left, clay-O wordmark centered, About and Cart right; solid paper with a hairline once scrolled.",
+      "html": "<header class=\"ds-nav\"><nav class=\"ds-nav-side\"><a class=\"ds-nav-link\" href=\"#\">Shop</a><a class=\"ds-nav-link\" href=\"#\">Colors</a></nav><a class=\"ds-wordmark\" href=\"#\" aria-label=\"MANGO\"><span aria-hidden=\"true\">MANG</span><svg class=\"ds-wm-o\" viewBox=\"0 0 100 94\" aria-hidden=\"true\"><path d=\"M50.5 2.5C77 2 97.5 18.5 97.5 46.5S78.5 92 49 91.5 2.5 74 2.5 47.5 23 3 50.5 2.5Z\" fill=\"var(--sel-base, #383533)\"/><path d=\"M27 44.5c9-9.5 30.5-12 46-4.5\" stroke=\"var(--sel-top, #EFE8DA)\" stroke-width=\"15\" stroke-linecap=\"round\" fill=\"none\"/></svg></a><div class=\"ds-nav-side ds-nav-right\"><a class=\"ds-nav-link\" href=\"#\">About</a><a class=\"ds-nav-link\" href=\"#\">Cart (0)</a></div></header>",
+      "css": ".ds-nav { height: 60px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 0 clamp(16px, 1.45vw, 24px); background: var(--paper, #e4dfd7); box-shadow: 0 1px 0 var(--rule, rgba(28, 22, 19, 0.16)); color: var(--ink, #1c1613); font-family: var(--sans, 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif); font-size: 15px; } .ds-nav-side { display: flex; gap: 22px; align-items: center; } .ds-nav-right { justify-content: flex-end; } .ds-nav-link { position: relative; padding: 6px 0; color: inherit; text-decoration: none; } .ds-nav-link::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 3px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform 0.45s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-nav-link:hover::after { transform: scaleX(1); transform-origin: left; } .ds-nav a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; } .ds-wordmark { display: inline-flex; align-items: baseline; font-weight: 760; font-size: 28px; letter-spacing: -0.05em; line-height: 1; color: inherit; text-decoration: none; white-space: nowrap; } .ds-wm-o { display: inline-block; width: 0.78em; height: 0.74em; margin-left: 0.02em; transform: translateY(0.02em); }"
+    },
+    {
+      "name": "Buy Widget",
+      "kind": "card",
+      "refersTo": "buy-widget",
+      "description": "Floating 300px square quick-add: colorway-field thumbnail with the flat object glyph, name, price and two text links.",
+      "html": "<aside class=\"ds-buy\" aria-label=\"Quick add\"><div class=\"ds-buy-thumb\"><svg width=\"56\" height=\"44\" viewBox=\"0 0 120 94\" aria-hidden=\"true\"><path d=\"M13 58c0-9 94-9 94 0v13c0 13-94 13-94 0Z\" fill=\"#383533\"/><ellipse cx=\"60\" cy=\"58\" rx=\"47\" ry=\"9\" fill=\"#fff\" opacity=\".12\"/><path d=\"M80 62c0-17-3-27-19-29l-40-1c-8 0-13 3-15 8\" stroke=\"#EFE8DA\" stroke-width=\"17\" stroke-linecap=\"round\" fill=\"none\"/></svg></div><div class=\"ds-buy-body\"><span class=\"ds-buy-name\">Vanilla</span><span class=\"ds-buy-price\">¥12</span><div class=\"ds-buy-actions\"><button class=\"ds-buy-link\">Close</button><button class=\"ds-buy-link ds-buy-add\">Add to cart</button></div></div></aside>",
+      "css": ".ds-buy { width: 300px; display: grid; grid-template-columns: 76px 1fr; background: var(--paper-2, #ece8e1); box-shadow: 0 0 0 1px var(--rule-strong, rgba(28, 22, 19, 0.38)); color: var(--ink, #1c1613); font-family: var(--sans, 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif); } .ds-buy-thumb { background: var(--sel-field, #26231F); display: grid; place-items: center; padding: 8px; transition: background-color 0.6s; } .ds-buy-body { padding: 10px 12px; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; font-size: 14px; } .ds-buy-name { font-weight: 560; } .ds-buy-price { color: var(--ink-2, #4e4540); font-variant-numeric: tabular-nums; } .ds-buy-actions { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: end; margin-top: 14px; } .ds-buy-link { position: relative; padding: 6px 0; background: none; border: 0; color: inherit; font: inherit; cursor: pointer; } .ds-buy-add { font-weight: 560; } .ds-buy-link::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 3px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform 0.45s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-buy-link:hover::after { transform: scaleX(1); transform-origin: left; } .ds-buy-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "description": "Hairline-ruled serif question with a 64px outlined plus box that rotates to a cross when open.",
+      "html": "<div class=\"ds-faq\"><button class=\"ds-faq-q\" aria-expanded=\"false\">How much is it?<span class=\"ds-faq-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M12 4v16M4 12h16\"/></svg></span></button></div>",
+      "css": ".ds-faq { border-top: 1px solid var(--rule-strong, rgba(28, 22, 19, 0.38)); border-bottom: 1px solid var(--rule-strong, rgba(28, 22, 19, 0.38)); } .ds-faq-q { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 22px 0; text-align: left; background: none; border: 0; cursor: pointer; font-family: var(--serif, 'Young Serif', Georgia, 'Times New Roman', serif); font-size: clamp(24px, 2.6vw, 38px); line-height: 1.08; color: var(--ink-2, #4e4540); transition: color 0.3s; } .ds-faq-q:hover, .ds-faq-q[aria-expanded=\"true\"] { color: var(--ink, #1c1613); } .ds-faq-q:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; } .ds-faq-icon { flex: none; width: 64px; height: 64px; display: grid; place-items: center; box-shadow: inset 0 0 0 1px var(--rule, rgba(28, 22, 19, 0.16)); color: var(--ink, #1c1613); } .ds-faq-icon svg { transition: transform 0.5s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-faq-q[aria-expanded=\"true\"] .ds-faq-icon svg { transform: rotate(45deg); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Studio Floor",
+    "overview": "MANGO is a warm, gray studio ground with one thing on it: a small clay piece, rendered live in WebGL, soft and slightly lopsided. The page photographs nothing. The object does every job a product photo usually does: it fronts the hero, turns in the configurator, re-colors through the color run and sits in each collection tile. The UI around it is printed, not built. Huge tight uppercase grotesk, a soft serif speaking voice, hairline rules, square edges, and no cards, so the only volume and the only shadow on the page belong to the clay.\n\nColor works by drenching. The neutral ground stays quiet until a colorway takes over: the color run pins a full viewport and swaps its whole field and type color through all ten colorways as you scroll, and the selected colorway also tints the wordmark's clay \"O\", the sliding band and the buy widget's thumbnail. A colorway is never a small accent on a white card. It owns the region it touches.\n\nDensity is editorial. Sections breathe (140px vertical padding on desktop), headlines run edge to edge, and supporting copy sits in narrow columns on a 12-column grid. Motion is slow and eased: lines rise out of their own masks, words ink in with scroll, and clay colors ease between colorways rather than snapping.",
+    "keyCharacteristics": [
+      "One live 3D clay object as the only imagery; matte, grained, hand-irregular, never glossy.",
+      "Warm studio-gray paper ground with brown-black ink; one dark section for contrast.",
+      "Ten colorways, each a four-part set (base, top, field, ink) that drenches whole regions.",
+      "Schibsted Grotesk set huge, uppercase and tight; Young Serif for the soft human voice.",
+      "Hairline rules and inset 1px strokes instead of borders, cards or elevation.",
+      "Square UI chrome; roundness belongs to the clay and its swatch portraits."
+    ],
+    "rules": [
+      {
+        "name": "The Drench Rule",
+        "body": "A colorway appears as a whole field with its own ink on top, or as clay. It never appears as a small accent chip on the neutral ground (the round swatch, which is a portrait of the clay, is the one exception).",
+        "section": "colors"
+      },
+      {
+        "name": "The Quartet Rule",
+        "body": "Base, top, field and ink travel together. Never set one colorway's ink on another colorway's field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Grotesk shouts in uppercase; the serif speaks in sentence case. Never set Young Serif in uppercase, never set a full sentence of body copy in the display style.",
+        "section": "typography"
+      },
+      {
+        "name": "The Edge-to-Edge Rule",
+        "body": "Display type is sized in viewport units so it spans the gutters; the live object is allowed to sit in front of it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Shadow Rule",
+        "body": "The clay casts the only shadows. UI surfaces separate by tone (Paper, Paper Raised, Kiln Dark) and hairlines, never by elevation.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Chrome Rule",
+        "body": "If it is interface, it has square corners. If it is clay, or a picture of clay, it is round and irregular.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do render the product only as the live clay object (or its flat glyph in small UI); let it overlap display type.",
+      "Do use a colorway as a full field with its own ink (The Drench Rule), cross-fading over 0.8s with the ease-in-out curve when it changes.",
+      "Do set headlines in Schibsted Grotesk 560, uppercase, -0.04em, sized in viewport units to span the gutters.",
+      "Do give every human-sounding sentence to Young Serif in sentence case.",
+      "Do separate content with 1px hairlines (Hairline or Hairline Strong) and tonal grounds.",
+      "Do keep all interface corners square (0px) and icons in the single 1.5-stroke, square-cap family.",
+      "Do reveal headlines line by line from their own masks (1.15s, 85ms stagger) and honor reduced motion by collapsing all durations.",
+      "Do use tabular numerals for prices, counts and request numbers."
+    ],
+    "donts": [
+      "Don't add drop shadows or elevation to UI; the clay casts the only shadows.",
+      "Don't put content in rounded cards or pastel-gradient tiles; the build has no cards.",
+      "Don't use photographs, downloaded models or pre-rendered images of the object.",
+      "Don't make the clay glossy, smooth or perfectly symmetric; keep it matte and irregular.",
+      "Don't mix one colorway's ink with another colorway's field (The Quartet Rule).",
+      "Don't set Young Serif in uppercase, or body paragraphs in the display style.",
+      "Don't use pure black or pure white as the page ground or text color at rest; use Studio Ink and Studio Paper."
+    ]
+  }
+}
